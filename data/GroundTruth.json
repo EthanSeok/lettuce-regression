@@ -1,0 +1,3062 @@
+{
+	"General" : {
+		"ExperimentInfo" : "This dataset contains references to images and measured data on a lettuce crop growing in well controlled greenhouse conditions. There are 4 varieties and samples of the crop are destructively measured in a 7 days interval.",
+		"Varieties" : "Aphylion, Salanova, Satine, Lugano",
+		"Measurements" : {
+			"RGBImage" : {
+				"Info" : "Reference to a png-file with the rgb-image data",
+				"Unit" : "-"
+			},
+			"DebthInformation" : {
+				"Info" : "Reference to a file (with png-extension) that holds xyz-information for each pixel from the top view",
+				"Unit" : "-"
+			},
+			"FreshWeightShoot" : {
+				"Info" : "A head of lettuce, harvested from a hydroponic cultivation system has two parts, the 'root' and the 'shoot' The 'shoot' is the top part, being the edable part of the plant, starting at the attachment point of the first leaves",
+				"Unit" : "gram/plant"
+			},
+			"Height" : {
+				"Info" : "The height of the highest part of the plant, measured from the attachment point of the first leaves.",
+				"Unit" : "cm"
+			},
+			"Diameter" : {
+				"Info" : "The principal diameter of the projection of the lettuce plant on a horizontal surface",
+				"Unit" : "cm"
+			},
+			"LeafArea" : {
+				"Info" : "For the destructive measurements, leaves are torn from the stem and their surface projected on a horizontal surface are marked as LeafArea. Note that curly leaves in realitiy will have a notable larger area if all curvatures would be straighted. Obviously, the additional surface in these curvatures is discarded with this measurement.",
+				"Unit" : "cm2"
+			},
+			"DryWeightShoot" : {
+				"Info" : "After the fresh wait of all above ground parts is weighed and measured, all tissue is dried in a dry-oven. After 3 days of drying the remaining weight is mesured as dry weight of the shoot",
+				"Unit" : "gram/plant"
+			}
+		},
+		"Camera" : {
+			"Info" : "All images are obtained with a realsense camera type:\t",
+			"DeviceID" : "002422060160",
+			"DepthScale" : 0.00100000004749745,
+			"depth_int" : {
+				"height" : 1080,
+				"width" : 1920,
+				"ppx" : 973.902038574219,
+				"ppy" : 537.702270507812,
+				"fx" : 1371.58264160156,
+				"fy" : 1369.42761230469,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.inverse_brown_conrady"
+			},
+			"color_int" : {
+				"height" : 1080,
+				"width" : 1920,
+				"ppx" : 973.902038574219,
+				"ppy" : 537.702270507812,
+				"fx" : 1371.58264160156,
+				"fy" : 1369.42761230469,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.inverse_brown_conrady"
+			},
+			"ir_int" : {
+				"height" : 720,
+				"width" : 1280,
+				"ppx" : 637.933654785156,
+				"ppy" : 347.102325439453,
+				"fx" : 889.749572753906,
+				"fy" : 889.749572753906,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.brown_conrady"
+			},
+			"depth_to_color_ext" : {
+				"rotation" : [ 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0 ],
+				"translation" : [ 0.0, 0.0, 0.0 ]
+			},
+			"ir_to_color_ext" : {
+				"rotation" : [
+					0.999989449977875,
+					-0.00311925541609526,
+					0.00337212649174035,
+					0.00313232676126063,
+					0.999987602233887,
+					-0.00387795572169125,
+					-0.00335998833179474,
+					0.00388847757130861,
+					0.99998676776886
+				],
+				"translation" : [ 0.0151169626042247, -2.81767242995556e-05, -0.000219923706026748 ]
+			}
+		}
+	},
+	"General" : {
+		"ExperimentInfo" : "This dataset contains references to images and measured data on a lettuce crop growing in well controlled greenhouse conditions. There are 4 varieties and samples of the crop are destructively measured in a 7 days interval.",
+		"Varieties" : "Aphylion, Salanova, Satine, Lugano",
+		"Measurements" : {
+			"RGBImage" : {
+				"Info" : "Reference to a png-file with the rgb-image data",
+				"Unit" : "-"
+			},
+			"DebthInformation" : {
+				"Info" : "Reference to a file (with png-extension) that holds xyz-information for each pixel from the top view",
+				"Unit" : "-"
+			},
+			"FreshWeightShoot" : {
+				"Info" : "A head of lettuce, harvested from a hydroponic cultivation system has two parts, the 'root' and the 'shoot' The 'shoot' is the top part, being the edable part of the plant, starting at the attachment point of the first leaves",
+				"Unit" : "gram/plant"
+			},
+			"Height" : {
+				"Info" : "The height of the highest part of the plant, measured from the attachment point of the first leaves.",
+				"Unit" : "cm"
+			},
+			"Diameter" : {
+				"Info" : "The principal diameter of the projection of the lettuce plant on a horizontal surface",
+				"Unit" : "cm"
+			},
+			"LeafArea" : {
+				"Info" : "For the destructive measurements, leaves are torn from the stem and their surface projected on a horizontal surface are marked as LeafArea. Note that curly leaves in realitiy will have a notable larger area if all curvatures would be straighted. Obviously, the additional surface in these curvatures is discarded with this measurement.",
+				"Unit" : "cm2"
+			},
+			"DryWeightShoot" : {
+				"Info" : "After the fresh wait of all above ground parts is weighed and measured, all tissue is dried in a dry-oven. After 3 days of drying the remaining weight is mesured as dry weight of the shoot",
+				"Unit" : "gram/plant"
+			}
+		},
+		"Camera" : {
+			"Info" : "All images are obtained with a realsense camera type:\t",
+			"DeviceID" : "002422060160",
+			"DepthScale" : 0.00100000004749745,
+			"depth_int" : {
+				"height" : 1080,
+				"width" : 1920,
+				"ppx" : 973.902038574219,
+				"ppy" : 537.702270507812,
+				"fx" : 1371.58264160156,
+				"fy" : 1369.42761230469,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.inverse_brown_conrady"
+			},
+			"color_int" : {
+				"height" : 1080,
+				"width" : 1920,
+				"ppx" : 973.902038574219,
+				"ppy" : 537.702270507812,
+				"fx" : 1371.58264160156,
+				"fy" : 1369.42761230469,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.inverse_brown_conrady"
+			},
+			"ir_int" : {
+				"height" : 720,
+				"width" : 1280,
+				"ppx" : 637.933654785156,
+				"ppy" : 347.102325439453,
+				"fx" : 889.749572753906,
+				"fy" : 889.749572753906,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.brown_conrady"
+			},
+			"depth_to_color_ext" : {
+				"rotation" : [ 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0 ],
+				"translation" : [ 0.0, 0.0, 0.0 ]
+			},
+			"ir_to_color_ext" : {
+				"rotation" : [
+					0.999989449977875,
+					-0.00311925541609526,
+					0.00337212649174035,
+					0.00313232676126063,
+					0.999987602233887,
+					-0.00387795572169125,
+					-0.00335998833179474,
+					0.00388847757130861,
+					0.99998676776886
+				],
+				"translation" : [ 0.0151169626042247, -2.81767242995556e-05, -0.000219923706026748 ]
+			}
+		}
+	},
+	"General" : {
+		"ExperimentInfo" : "This dataset contains references to images and measured data on a lettuce crop growing in well controlled greenhouse conditions. There are 4 varieties and samples of the crop are destructively measured in a 7 days interval.",
+		"Varieties" : "Aphylion, Salanova, Satine, Lugano",
+		"Measurements" : {
+			"RGBImage" : {
+				"Info" : "Reference to a png-file with the rgb-image data",
+				"Unit" : "-"
+			},
+			"DebthInformation" : {
+				"Info" : "Reference to a file (with png-extension) that holds xyz-information for each pixel from the top view",
+				"Unit" : "-"
+			},
+			"FreshWeightShoot" : {
+				"Info" : "A head of lettuce, harvested from a hydroponic cultivation system has two parts, the 'root' and the 'shoot' The 'shoot' is the top part, being the edable part of the plant, starting at the attachment point of the first leaves",
+				"Unit" : "gram/plant"
+			},
+			"Height" : {
+				"Info" : "The height of the highest part of the plant, measured from the attachment point of the first leaves.",
+				"Unit" : "cm"
+			},
+			"Diameter" : {
+				"Info" : "The principal diameter of the projection of the lettuce plant on a horizontal surface",
+				"Unit" : "cm"
+			},
+			"LeafArea" : {
+				"Info" : "For the destructive measurements, leaves are torn from the stem and their surface projected on a horizontal surface are marked as LeafArea. Note that curly leaves in realitiy will have a notable larger area if all curvatures would be straighted. Obviously, the additional surface in these curvatures is discarded with this measurement.",
+				"Unit" : "cm2"
+			},
+			"DryWeightShoot" : {
+				"Info" : "After the fresh wait of all above ground parts is weighed and measured, all tissue is dried in a dry-oven. After 3 days of drying the remaining weight is mesured as dry weight of the shoot",
+				"Unit" : "gram/plant"
+			}
+		},
+		"Camera" : {
+			"Info" : "All images are obtained with a realsense camera type:\t",
+			"DeviceID" : "002422060160",
+			"DepthScale" : 0.00100000004749745,
+			"depth_int" : {
+				"height" : 1080,
+				"width" : 1920,
+				"ppx" : 973.902038574219,
+				"ppy" : 537.702270507812,
+				"fx" : 1371.58264160156,
+				"fy" : 1369.42761230469,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.inverse_brown_conrady"
+			},
+			"color_int" : {
+				"height" : 1080,
+				"width" : 1920,
+				"ppx" : 973.902038574219,
+				"ppy" : 537.702270507812,
+				"fx" : 1371.58264160156,
+				"fy" : 1369.42761230469,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.inverse_brown_conrady"
+			},
+			"ir_int" : {
+				"height" : 720,
+				"width" : 1280,
+				"ppx" : 637.933654785156,
+				"ppy" : 347.102325439453,
+				"fx" : 889.749572753906,
+				"fy" : 889.749572753906,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.brown_conrady"
+			},
+			"depth_to_color_ext" : {
+				"rotation" : [ 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0 ],
+				"translation" : [ 0.0, 0.0, 0.0 ]
+			},
+			"ir_to_color_ext" : {
+				"rotation" : [
+					0.999989449977875,
+					-0.00311925541609526,
+					0.00337212649174035,
+					0.00313232676126063,
+					0.999987602233887,
+					-0.00387795572169125,
+					-0.00335998833179474,
+					0.00388847757130861,
+					0.99998676776886
+				],
+				"translation" : [ 0.0151169626042247, -2.81767242995556e-05, -0.000219923706026748 ]
+			}
+		}
+	},
+	"General" : {
+		"ExperimentInfo" : "This dataset contains references to images and measured data on a lettuce crop growing in well controlled greenhouse conditions. There are 4 varieties and samples of the crop are destructively measured in a 7 days interval.",
+		"Varieties" : "Aphylion, Salanova, Satine, Lugano, but in this teaser only Lugano and Salanova",
+		"Measurements" : {
+			"RGBImage" : {
+				"Info" : "Reference to a png-file with the rgb-image data",
+				"Unit" : "-"
+			},
+			"DebthInformation" : {
+				"Info" : "Reference to a file (with png-extension) that holds xyz-information for each pixel from the top view",
+				"Unit" : "-"
+			},
+			"FreshWeightShoot" : {
+				"Info" : "A head of lettuce, harvested from a hydroponic cultivation system has two parts, the 'root' and the 'shoot' The 'shoot' is the top part, being the edable part of the plant, starting at the attachment point of the first leaves",
+				"Unit" : "gram/plant"
+			},
+			"Height" : {
+				"Info" : "The height of the highest part of the plant, measured from the attachment point of the first leaves.",
+				"Unit" : "cm"
+			},
+			"Diameter" : {
+				"Info" : "The principal diameter of the projection of the lettuce plant on a horizontal surface",
+				"Unit" : "cm"
+			},
+			"LeafArea" : {
+				"Info" : "For the destructive measurements, leaves are torn from the stem and their surface projected on a horizontal surface are marked as LeafArea. Note that curly leaves in realitiy will have a notable larger area if all curvatures would be straighted. Obviously, the additional surface in these curvatures is discarded with this measurement.",
+				"Unit" : "cm2"
+			},
+			"DryWeightShoot" : {
+				"Info" : "After the fresh wait of all above ground parts is weighed and measured, all tissue is dried in a dry-oven. After 3 days of drying the remaining weight is mesured as dry weight of the shoot",
+				"Unit" : "gram/plant"
+			}
+		},
+		"Camera" : {
+			"Info" : "All images are obtained with a realsense camera type:\t",
+			"DeviceID" : "002422060160",
+			"DepthScale" : 0.00100000004749745,
+			"depth_int" : {
+				"height" : 1080,
+				"width" : 1920,
+				"ppx" : 973.902038574219,
+				"ppy" : 537.702270507812,
+				"fx" : 1371.58264160156,
+				"fy" : 1369.42761230469,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.inverse_brown_conrady"
+			},
+			"color_int" : {
+				"height" : 1080,
+				"width" : 1920,
+				"ppx" : 973.902038574219,
+				"ppy" : 537.702270507812,
+				"fx" : 1371.58264160156,
+				"fy" : 1369.42761230469,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.inverse_brown_conrady"
+			},
+			"ir_int" : {
+				"height" : 720,
+				"width" : 1280,
+				"ppx" : 637.933654785156,
+				"ppy" : 347.102325439453,
+				"fx" : 889.749572753906,
+				"fy" : 889.749572753906,
+				"coefs" : [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+				"model" : "distortion.brown_conrady"
+			},
+			"depth_to_color_ext" : {
+				"rotation" : [ 1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0 ],
+				"translation" : [ 0.0, 0.0, 0.0 ]
+			},
+			"ir_to_color_ext" : {
+				"rotation" : [
+					0.999989449977875,
+					-0.00311925541609526,
+					0.00337212649174035,
+					0.00313232676126063,
+					0.999987602233887,
+					-0.00387795572169125,
+					-0.00335998833179474,
+					0.00388847757130861,
+					0.99998676776886
+				],
+				"translation" : [ 0.0151169626042247, -2.81767242995556e-05, -0.000219923706026748 ]
+			}
+		}
+	},
+	"Measurements": {
+		"Image27": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_27.png",
+			"DebthInformation":"Debth_27.png",
+			"FreshWeightShoot": 5.5,
+			"DryWeightShoot":0.42,
+			"Height": 9.0,
+			"Diameter":11.0,
+			"LeafArea":153.9
+		},
+		"Image79": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_79.png",
+			"DebthInformation":"Debth_79.png",
+			"FreshWeightShoot":30.3,
+			"DryWeightShoot":1.92,
+			"Height": 8.8,
+			"Diameter":20.2,
+			"LeafArea":582.3
+		},
+		"Image140": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_140.png",
+			"DebthInformation":"Debth_140.png",
+			"FreshWeightShoot":60.9,
+			"DryWeightShoot":2.83,
+			"Height":11.6,
+			"Diameter":19.0,
+			"LeafArea":960.6
+		},
+		"Image203": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_203.png",
+			"DebthInformation":"Debth_203.png",
+			"FreshWeightShoot":112.0,
+			"DryWeightShoot":5.76,
+			"Height":11.0,
+			"Diameter":22.0,
+			"LeafArea":1614.9
+		},
+		"Image292": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_292.png",
+			"DebthInformation":"Debth_292.png",
+			"FreshWeightShoot":372.6,
+			"DryWeightShoot":14.17,
+			"Height":17.0,
+			"Diameter":32.0,
+			"LeafArea":3839.6
+		},
+		"Image38": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_38.png",
+			"DebthInformation":"Debth_38.png",
+			"FreshWeightShoot": 4.7,
+			"DryWeightShoot":0.49,
+			"Height": 7.2,
+			"Diameter":16.0,
+			"LeafArea":156.7
+		},
+		"Image97": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_97.png",
+			"DebthInformation":"Debth_97.png",
+			"FreshWeightShoot":18.6,
+			"DryWeightShoot":1.62,
+			"Height": 5.7,
+			"Diameter":19.5,
+			"LeafArea":578.2
+		},
+		"Image157": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_157.png",
+			"DebthInformation":"Debth_157.png",
+			"FreshWeightShoot":47.1,
+			"DryWeightShoot":2.59,
+			"Height":12.8,
+			"Diameter":26.2,
+			"LeafArea":1321.3
+		},
+		"Image218": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_218.png",
+			"DebthInformation":"Debth_218.png",
+			"FreshWeightShoot":96.0,
+			"DryWeightShoot":4.81,
+			"Height":11.0,
+			"Diameter":27.0,
+			"LeafArea":2153.6
+		},
+		"Image317": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_317.png",
+			"DebthInformation":"Debth_317.png",
+			"FreshWeightShoot":187.4,
+			"DryWeightShoot":8.76,
+			"Height":14.5,
+			"Diameter":29.0,
+			"LeafArea":3369.7
+		},
+		"Image47": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_47.png",
+			"DebthInformation":"Debth_47.png",
+			"FreshWeightShoot": 4.5,
+			"DryWeightShoot":0.45,
+			"Height": 6.3,
+			"Diameter":11.0,
+			"LeafArea":105.0
+		},
+		"Image48": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_48.png",
+			"DebthInformation":"Debth_48.png",
+			"FreshWeightShoot": 4.2,
+			"DryWeightShoot":0.37,
+			"Height": 6.5,
+			"Diameter":15.7,
+			"LeafArea":105.7
+		},
+		"Image49": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_49.png",
+			"DebthInformation":"Debth_49.png",
+			"FreshWeightShoot": 7.1,
+			"DryWeightShoot":0.63,
+			"Height": 7.5,
+			"Diameter":13.4,
+			"LeafArea":140.8
+		},
+		"Image50": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_50.png",
+			"DebthInformation":"Debth_50.png",
+			"FreshWeightShoot": 6.7,
+			"DryWeightShoot":0.53,
+			"Height": 7.0,
+			"Diameter":16.0,
+			"LeafArea":162.5
+		},
+		"Image52": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_52.png",
+			"DebthInformation":"Debth_52.png",
+			"FreshWeightShoot": 6.8,
+			"DryWeightShoot":0.50,
+			"Height": 7.8,
+			"Diameter":14.6,
+			"LeafArea":158.9
+		},
+		"Image53": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_53.png",
+			"DebthInformation":"Debth_53.png",
+			"FreshWeightShoot": 8.6,
+			"DryWeightShoot":0.86,
+			"Height": 5.8,
+			"Diameter":19.6,
+			"LeafArea":196.5
+		},
+		"Image100": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_100.png",
+			"DebthInformation":"Debth_100.png",
+			"FreshWeightShoot":23.2,
+			"DryWeightShoot":1.23,
+			"Height": 7.1,
+			"Diameter":20.0,
+			"LeafArea":475.0
+		},
+		"Image101": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_101.png",
+			"DebthInformation":"Debth_101.png",
+			"FreshWeightShoot":24.9,
+			"DryWeightShoot":1.79,
+			"Height": 6.5,
+			"Diameter":16.0,
+			"LeafArea":486.3
+		},
+		"Image104": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_104.png",
+			"DebthInformation":"Debth_104.png",
+			"FreshWeightShoot":27.9,
+			"DryWeightShoot":1.76,
+			"Height": 6.6,
+			"Diameter":19.5,
+			"LeafArea":520.0
+		},
+		"Image107": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_107.png",
+			"DebthInformation":"Debth_107.png",
+			"FreshWeightShoot":20.8,
+			"DryWeightShoot":1.15,
+			"Height": 7.3,
+			"Diameter":15.0,
+			"LeafArea":436.8
+		},
+		"Image108": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_108.png",
+			"DebthInformation":"Debth_108.png",
+			"FreshWeightShoot":24.5,
+			"DryWeightShoot":1.70,
+			"Height": 8.1,
+			"Diameter":16.3,
+			"LeafArea":543.5
+		},
+		"Image109": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_109.png",
+			"DebthInformation":"Debth_109.png",
+			"FreshWeightShoot":27.8,
+			"DryWeightShoot":1.84,
+			"Height": 8.2,
+			"Diameter":20.6,
+			"LeafArea":637.7
+		},
+		"Image110": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_110.png",
+			"DebthInformation":"Debth_110.png",
+			"FreshWeightShoot":22.9,
+			"DryWeightShoot":1.42,
+			"Height": 7.8,
+			"Diameter":16.8,
+			"LeafArea":513.1
+		},
+		"Image111": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_111.png",
+			"DebthInformation":"Debth_111.png",
+			"FreshWeightShoot":38.2,
+			"DryWeightShoot":2.25,
+			"Height":10.3,
+			"Diameter":20.6,
+			"LeafArea":831.8
+		},
+		"Image112": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_112.png",
+			"DebthInformation":"Debth_112.png",
+			"FreshWeightShoot":31.3,
+			"DryWeightShoot":2.11,
+			"Height": 8.4,
+			"Diameter":17.8,
+			"LeafArea":670.9
+		},
+		"Image113": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_113.png",
+			"DebthInformation":"Debth_113.png",
+			"FreshWeightShoot":24.9,
+			"DryWeightShoot":2.09,
+			"Height": 7.5,
+			"Diameter":18.6,
+			"LeafArea":518.4
+		},
+		"Image114": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_114.png",
+			"DebthInformation":"Debth_114.png",
+			"FreshWeightShoot":26.7,
+			"DryWeightShoot":2.24,
+			"Height": 7.0,
+			"Diameter":20.1,
+			"LeafArea":561.3
+		},
+		"Image115": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_115.png",
+			"DebthInformation":"Debth_115.png",
+			"FreshWeightShoot":32.3,
+			"DryWeightShoot":2.05,
+			"Height": 9.2,
+			"Diameter":21.5,
+			"LeafArea":679.4
+		},
+		"Image164": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_164.png",
+			"DebthInformation":"Debth_164.png",
+			"FreshWeightShoot":94.0,
+			"DryWeightShoot":4.48,
+			"Height":13.4,
+			"Diameter":21.9,
+			"LeafArea":1670.0
+		},
+		"Image165": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_165.png",
+			"DebthInformation":"Debth_165.png",
+			"FreshWeightShoot":62.7,
+			"DryWeightShoot":2.85,
+			"Height":13.5,
+			"Diameter":20.1,
+			"LeafArea":1106.1
+		},
+		"Image166": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_166.png",
+			"DebthInformation":"Debth_166.png",
+			"FreshWeightShoot":99.7,
+			"DryWeightShoot":4.59,
+			"Height":13.9,
+			"Diameter":22.0,
+			"LeafArea":1678.9
+		},
+		"Image167": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_167.png",
+			"DebthInformation":"Debth_167.png",
+			"FreshWeightShoot":72.8,
+			"DryWeightShoot":3.99,
+			"Height":11.3,
+			"Diameter":19.4,
+			"LeafArea":1221.1
+		},
+		"Image168": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_168.png",
+			"DebthInformation":"Debth_168.png",
+			"FreshWeightShoot":74.3,
+			"DryWeightShoot":3.46,
+			"Height":13.1,
+			"Diameter":19.5,
+			"LeafArea":1318.9
+		},
+		"Image170": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_170.png",
+			"DebthInformation":"Debth_170.png",
+			"FreshWeightShoot":60.1,
+			"DryWeightShoot":4.02,
+			"Height":11.0,
+			"Diameter":20.3,
+			"LeafArea":1073.6
+		},
+		"Image173": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_173.png",
+			"DebthInformation":"Debth_173.png",
+			"FreshWeightShoot":44.9,
+			"DryWeightShoot":2.02,
+			"Height":12.4,
+			"Diameter":16.9,
+			"LeafArea":915.1
+		},
+		"Image174": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_174.png",
+			"DebthInformation":"Debth_174.png",
+			"FreshWeightShoot":83.5,
+			"DryWeightShoot":4.34,
+			"Height":12.0,
+			"Diameter":19.5,
+			"LeafArea":1469.7
+		},
+		"Image177": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_177.png",
+			"DebthInformation":"Debth_177.png",
+			"FreshWeightShoot":79.8,
+			"DryWeightShoot":3.81,
+			"Height":12.1,
+			"Diameter":22.1,
+			"LeafArea":1460.4
+		},
+		"Image178": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_178.png",
+			"DebthInformation":"Debth_178.png",
+			"FreshWeightShoot":82.9,
+			"DryWeightShoot":3.82,
+			"Height":15.0,
+			"Diameter":20.5,
+			"LeafArea":1529.5
+		},
+		"Image219": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_219.png",
+			"DebthInformation":"Debth_219.png",
+			"FreshWeightShoot":149.0,
+			"DryWeightShoot":6.85,
+			"Height":15.0,
+			"Diameter":23.0,
+			"LeafArea":2255.6
+		},
+		"Image222": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_222.png",
+			"DebthInformation":"Debth_222.png",
+			"FreshWeightShoot":114.0,
+			"DryWeightShoot":5.51,
+			"Height":16.0,
+			"Diameter":24.0,
+			"LeafArea":1878.4
+		},
+		"Image223": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_223.png",
+			"DebthInformation":"Debth_223.png",
+			"FreshWeightShoot":163.0,
+			"DryWeightShoot":6.82,
+			"Height":15.0,
+			"Diameter":26.0,
+			"LeafArea":2453.6
+		},
+		"Image224": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_224.png",
+			"DebthInformation":"Debth_224.png",
+			"FreshWeightShoot":97.0,
+			"DryWeightShoot":4.84,
+			"Height":12.0,
+			"Diameter":25.0,
+			"LeafArea":2224.8
+		},
+		"Image225": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_225.png",
+			"DebthInformation":"Debth_225.png",
+			"FreshWeightShoot":157.0,
+			"DryWeightShoot":7.16,
+			"Height":14.0,
+			"Diameter":22.0,
+			"LeafArea":2502.9
+		},
+		"Image226": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_226.png",
+			"DebthInformation":"Debth_226.png",
+			"FreshWeightShoot":106.0,
+			"DryWeightShoot":4.99,
+			"Height":16.0,
+			"Diameter":24.0,
+			"LeafArea":3350.6
+		},
+		"Image227": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_227.png",
+			"DebthInformation":"Debth_227.png",
+			"FreshWeightShoot":129.0,
+			"DryWeightShoot":6.16,
+			"Height":16.5,
+			"Diameter":20.0,
+			"LeafArea":1979.5
+		},
+		"Image228": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_228.png",
+			"DebthInformation":"Debth_228.png",
+			"FreshWeightShoot":125.0,
+			"DryWeightShoot":6.68,
+			"Height":16.0,
+			"Diameter":24.0,
+			"LeafArea":1856.6
+		},
+		"Image262": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_262.png",
+			"DebthInformation":"Debth_262.png",
+			"FreshWeightShoot":164.8,
+			"DryWeightShoot":9.24,
+			"Height":17.5,
+			"Diameter":30.6,
+			"LeafArea":2525.2
+		},
+		"Image263": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_263.png",
+			"DebthInformation":"Debth_263.png",
+			"FreshWeightShoot":261.9,
+			"DryWeightShoot":12.31,
+			"Height":20.5,
+			"Diameter":25.0,
+			"LeafArea":3734.2
+		},
+		"Image264": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_264.png",
+			"DebthInformation":"Debth_264.png",
+			"FreshWeightShoot":162.9,
+			"DryWeightShoot":8.15,
+			"Height":20.1,
+			"Diameter":25.3,
+			"LeafArea":2979.7
+		},
+		"Image267": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_267.png",
+			"DebthInformation":"Debth_267.png",
+			"FreshWeightShoot":156.0,
+			"DryWeightShoot":6.47,
+			"Height":20.0,
+			"Diameter":29.3,
+			"LeafArea":2395.0
+		},
+		"Image269": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_269.png",
+			"DebthInformation":"Debth_269.png",
+			"FreshWeightShoot":208.8,
+			"DryWeightShoot":9.98,
+			"Height":20.1,
+			"Diameter":29.8,
+			"LeafArea":3805.5
+		},
+		"Image270": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_270.png",
+			"DebthInformation":"Debth_270.png",
+			"FreshWeightShoot":229.8,
+			"DryWeightShoot":9.75,
+			"Height":22.5,
+			"Diameter":27.5,
+			"LeafArea":3537.2
+		},
+		"Image271": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_271.png",
+			"DebthInformation":"Debth_271.png",
+			"FreshWeightShoot":303.1,
+			"DryWeightShoot":12.62,
+			"Height":21.5,
+			"Diameter":30.0,
+			"LeafArea":4073.6
+		},
+		"Image272": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_272.png",
+			"DebthInformation":"Debth_272.png",
+			"FreshWeightShoot":263.2,
+			"DryWeightShoot":12.17,
+			"Height":23.1,
+			"Diameter":27.2,
+			"LeafArea":4606.6
+		},
+		"Image346": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_346.png",
+			"DebthInformation":"Debth_346.png",
+			"FreshWeightShoot":364.8,
+			"DryWeightShoot":14.69,
+			"Height":24.5,
+			"Diameter":33.0,
+			"LeafArea":4516.2
+		},
+		"Image347": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_347.png",
+			"DebthInformation":"Debth_347.png",
+			"FreshWeightShoot":444.7,
+			"DryWeightShoot":17.24,
+			"Height":24.0,
+			"Diameter":34.5,
+			"LeafArea":4995.6
+		},
+		"Image348": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_348.png",
+			"DebthInformation":"Debth_348.png",
+			"FreshWeightShoot":425.6,
+			"DryWeightShoot":16.47,
+			"Height":20.5,
+			"Diameter":34.0,
+			"LeafArea":5179.7
+		},
+		"Image353": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_353.png",
+			"DebthInformation":"Debth_353.png",
+			"FreshWeightShoot":313.1,
+			"DryWeightShoot":14.15,
+			"Height":21.0,
+			"Diameter":34.5,
+			"LeafArea":6875.4
+		},
+		"Image354": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_354.png",
+			"DebthInformation":"Debth_354.png",
+			"FreshWeightShoot":392.7,
+			"DryWeightShoot":18.06,
+			"Height":22.0,
+			"Diameter":34.0,
+			"LeafArea":4694.0
+		},
+		"Image356": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_356.png",
+			"DebthInformation":"Debth_356.png",
+			"FreshWeightShoot":247.1,
+			"DryWeightShoot":13.42,
+			"Height":21.0,
+			"Diameter":30.0,
+			"LeafArea":3398.0
+		},
+		"Image22": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_22.png",
+			"DebthInformation":"Debth_22.png",
+			"FreshWeightShoot": 4.7,
+			"DryWeightShoot":0.41,
+			"Height": 5.4,
+			"Diameter":13.3,
+			"LeafArea":121.0
+		},
+		"Image24": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_24.png",
+			"DebthInformation":"Debth_24.png",
+			"FreshWeightShoot": 6.1,
+			"DryWeightShoot":0.57,
+			"Height": 7.8,
+			"Diameter":17.1,
+			"LeafArea":166.2
+		},
+		"Image25": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_25.png",
+			"DebthInformation":"Debth_25.png",
+			"FreshWeightShoot": 6.1,
+			"DryWeightShoot":0.55,
+			"Height": 6.5,
+			"Diameter":15.8,
+			"LeafArea":164.8
+		},
+		"Image26": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_26.png",
+			"DebthInformation":"Debth_26.png",
+			"FreshWeightShoot": 4.7,
+			"DryWeightShoot":0.43,
+			"Height": 5.5,
+			"Diameter":13.5,
+			"LeafArea":131.0
+		},
+		"Image27": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_27.png",
+			"DebthInformation":"Debth_27.png",
+			"FreshWeightShoot": 5.5,
+			"DryWeightShoot":0.42,
+			"Height": 9.0,
+			"Diameter":11.0,
+			"LeafArea":153.9
+		},
+		"Image28": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_28.png",
+			"DebthInformation":"Debth_28.png",
+			"FreshWeightShoot": 8.3,
+			"DryWeightShoot":0.63,
+			"Height": 8.0,
+			"Diameter":13.0,
+			"LeafArea":202.4
+		},
+		"Image68": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_68.png",
+			"DebthInformation":"Debth_68.png",
+			"FreshWeightShoot":23.2,
+			"DryWeightShoot":1.75,
+			"Height": 6.1,
+			"Diameter":17.8,
+			"LeafArea":472.1
+		},
+		"Image69": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_69.png",
+			"DebthInformation":"Debth_69.png",
+			"FreshWeightShoot":30.4,
+			"DryWeightShoot":1.83,
+			"Height": 6.3,
+			"Diameter":16.0,
+			"LeafArea":628.8
+		},
+		"Image70": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_70.png",
+			"DebthInformation":"Debth_70.png",
+			"FreshWeightShoot":26.5,
+			"DryWeightShoot":1.82,
+			"Height": 7.3,
+			"Diameter":19.5,
+			"LeafArea":536.2
+		},
+		"Image72": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_72.png",
+			"DebthInformation":"Debth_72.png",
+			"FreshWeightShoot":29.5,
+			"DryWeightShoot":2.04,
+			"Height": 6.5,
+			"Diameter":16.2,
+			"LeafArea":596.8
+		},
+		"Image73": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_73.png",
+			"DebthInformation":"Debth_73.png",
+			"FreshWeightShoot":36.0,
+			"DryWeightShoot":2.33,
+			"Height": 6.8,
+			"Diameter":15.8,
+			"LeafArea":703.3
+		},
+		"Image76": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_76.png",
+			"DebthInformation":"Debth_76.png",
+			"FreshWeightShoot":31.0,
+			"DryWeightShoot":1.68,
+			"Height": 9.3,
+			"Diameter":18.0,
+			"LeafArea":638.0
+		},
+		"Image77": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_77.png",
+			"DebthInformation":"Debth_77.png",
+			"FreshWeightShoot":29.9,
+			"DryWeightShoot":2.24,
+			"Height": 7.0,
+			"Diameter":17.0,
+			"LeafArea":583.2
+		},
+		"Image78": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_78.png",
+			"DebthInformation":"Debth_78.png",
+			"FreshWeightShoot":33.1,
+			"DryWeightShoot":1.97,
+			"Height": 9.0,
+			"Diameter":18.5,
+			"LeafArea":657.4
+		},
+		"Image79": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_79.png",
+			"DebthInformation":"Debth_79.png",
+			"FreshWeightShoot":30.3,
+			"DryWeightShoot":1.92,
+			"Height": 8.8,
+			"Diameter":20.2,
+			"LeafArea":582.3
+		},
+		"Image80": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_80.png",
+			"DebthInformation":"Debth_80.png",
+			"FreshWeightShoot":17.9,
+			"DryWeightShoot":1.46,
+			"Height": 6.1,
+			"Diameter":17.0,
+			"LeafArea":346.3
+		},
+		"Image83": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_83.png",
+			"DebthInformation":"Debth_83.png",
+			"FreshWeightShoot":17.9,
+			"DryWeightShoot":1.10,
+			"Height": 7.8,
+			"Diameter":17.1,
+			"LeafArea":388.7
+		},
+		"Image132": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_132.png",
+			"DebthInformation":"Debth_132.png",
+			"FreshWeightShoot":45.6,
+			"DryWeightShoot":2.37,
+			"Height":11.6,
+			"Diameter":18.5,
+			"LeafArea":1721.5
+		},
+		"Image133": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_133.png",
+			"DebthInformation":"Debth_133.png",
+			"FreshWeightShoot":85.1,
+			"DryWeightShoot":3.62,
+			"Height":10.8,
+			"Diameter":20.6,
+			"LeafArea":1777.8
+		},
+		"Image135": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_135.png",
+			"DebthInformation":"Debth_135.png",
+			"FreshWeightShoot":66.9,
+			"DryWeightShoot":3.25,
+			"Height":10.6,
+			"Diameter":19.4,
+			"LeafArea":1062.9
+		},
+		"Image136": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_136.png",
+			"DebthInformation":"Debth_136.png",
+			"FreshWeightShoot":25.8,
+			"DryWeightShoot":1.61,
+			"Height": 9.8,
+			"Diameter":15.2,
+			"LeafArea":502.0
+		},
+		"Image137": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_137.png",
+			"DebthInformation":"Debth_137.png",
+			"FreshWeightShoot":72.2,
+			"DryWeightShoot":3.12,
+			"Height":12.9,
+			"Diameter":22.1,
+			"LeafArea":1209.4
+		},
+		"Image138": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_138.png",
+			"DebthInformation":"Debth_138.png",
+			"FreshWeightShoot":35.0,
+			"DryWeightShoot":1.99,
+			"Height":10.1,
+			"Diameter":16.5,
+			"LeafArea":685.5
+		},
+		"Image139": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_139.png",
+			"DebthInformation":"Debth_139.png",
+			"FreshWeightShoot":32.1,
+			"DryWeightShoot":1.95,
+			"Height": 8.9,
+			"Diameter":16.5,
+			"LeafArea":553.8
+		},
+		"Image140": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_140.png",
+			"DebthInformation":"Debth_140.png",
+			"FreshWeightShoot":60.9,
+			"DryWeightShoot":2.83,
+			"Height":11.6,
+			"Diameter":19.0,
+			"LeafArea":960.6
+		},
+		"Image141": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_141.png",
+			"DebthInformation":"Debth_141.png",
+			"FreshWeightShoot":78.3,
+			"DryWeightShoot":3.25,
+			"Height":12.0,
+			"Diameter":21.6,
+			"LeafArea":1189.5
+		},
+		"Image142": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_142.png",
+			"DebthInformation":"Debth_142.png",
+			"FreshWeightShoot":60.9,
+			"DryWeightShoot":2.67,
+			"Height":11.2,
+			"Diameter":21.0,
+			"LeafArea":1003.6
+		},
+		"Image143": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_143.png",
+			"DebthInformation":"Debth_143.png",
+			"FreshWeightShoot":87.4,
+			"DryWeightShoot":4.24,
+			"Height":10.6,
+			"Diameter":20.3,
+			"LeafArea":1243.7
+		},
+		"Image146": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_146.png",
+			"DebthInformation":"Debth_146.png",
+			"FreshWeightShoot":85.5,
+			"DryWeightShoot":4.30,
+			"Height":10.4,
+			"Diameter":21.3,
+			"LeafArea":1217.1
+		},
+		"Image147": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_147.png",
+			"DebthInformation":"Debth_147.png",
+			"FreshWeightShoot":85.6,
+			"DryWeightShoot":3.46,
+			"Height":13.7,
+			"Diameter":22.1,
+			"LeafArea":1548.0
+		},
+		"Image195": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_195.png",
+			"DebthInformation":"Debth_195.png",
+			"FreshWeightShoot":113.0,
+			"DryWeightShoot":5.37,
+			"Height":12.0,
+			"Diameter":20.0,
+			"LeafArea":1512.2
+		},
+		"Image198": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_198.png",
+			"DebthInformation":"Debth_198.png",
+			"FreshWeightShoot":142.0,
+			"DryWeightShoot":6.54,
+			"Height":11.0,
+			"Diameter":24.0,
+			"LeafArea":2056.9
+		},
+		"Image199": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_199.png",
+			"DebthInformation":"Debth_199.png",
+			"FreshWeightShoot":78.0,
+			"DryWeightShoot":4.41,
+			"Height":13.0,
+			"Diameter":19.5,
+			"LeafArea":1311.9
+		},
+		"Image202": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_202.png",
+			"DebthInformation":"Debth_202.png",
+			"FreshWeightShoot":88.0,
+			"DryWeightShoot":4.42,
+			"Height":14.0,
+			"Diameter":18.0,
+			"LeafArea":1988.0
+		},
+		"Image203": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_203.png",
+			"DebthInformation":"Debth_203.png",
+			"FreshWeightShoot":112.0,
+			"DryWeightShoot":5.76,
+			"Height":11.0,
+			"Diameter":22.0,
+			"LeafArea":1614.9
+		},
+		"Image204": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_204.png",
+			"DebthInformation":"Debth_204.png",
+			"FreshWeightShoot":135.0,
+			"DryWeightShoot":6.33,
+			"Height":12.0,
+			"Diameter":24.0,
+			"LeafArea":2253.3
+		},
+		"Image206": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_206.png",
+			"DebthInformation":"Debth_206.png",
+			"FreshWeightShoot":141.0,
+			"DryWeightShoot":6.42,
+			"Height":13.0,
+			"Diameter":22.0,
+			"LeafArea":2063.3
+		},
+		"Image242": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_242.png",
+			"DebthInformation":"Debth_242.png",
+			"FreshWeightShoot":242.1,
+			"DryWeightShoot":10.17,
+			"Height":17.5,
+			"Diameter":23.9,
+			"LeafArea":3501.7
+		},
+		"Image243": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_243.png",
+			"DebthInformation":"Debth_243.png",
+			"FreshWeightShoot":152.4,
+			"DryWeightShoot":7.84,
+			"Height":13.0,
+			"Diameter":21.8,
+			"LeafArea":3768.0
+		},
+		"Image248": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_248.png",
+			"DebthInformation":"Debth_248.png",
+			"FreshWeightShoot":175.0,
+			"DryWeightShoot":8.23,
+			"Height":15.0,
+			"Diameter":23.5,
+			"LeafArea":2295.7
+		},
+		"Image286": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_286.png",
+			"DebthInformation":"Debth_286.png",
+			"FreshWeightShoot":320.1,
+			"DryWeightShoot":11.84,
+			"Height":18.0,
+			"Diameter":27.5,
+			"LeafArea":3143.7
+		},
+		"Image287": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_287.png",
+			"DebthInformation":"Debth_287.png",
+			"FreshWeightShoot":318.4,
+			"DryWeightShoot":12.66,
+			"Height":17.0,
+			"Diameter":26.0,
+			"LeafArea":3065.1
+		},
+		"Image288": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_288.png",
+			"DebthInformation":"Debth_288.png",
+			"FreshWeightShoot":337.1,
+			"DryWeightShoot":12.81,
+			"Height":15.0,
+			"Diameter":25.5,
+			"LeafArea":3039.8
+		},
+		"Image289": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_289.png",
+			"DebthInformation":"Debth_289.png",
+			"FreshWeightShoot":285.8,
+			"DryWeightShoot":10.43,
+			"Height":17.0,
+			"Diameter":26.5,
+			"LeafArea":3106.8
+		},
+		"Image292": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_292.png",
+			"DebthInformation":"Debth_292.png",
+			"FreshWeightShoot":372.6,
+			"DryWeightShoot":14.17,
+			"Height":17.0,
+			"Diameter":32.0,
+			"LeafArea":3839.6
+		},
+		"Image293": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_293.png",
+			"DebthInformation":"Debth_293.png",
+			"FreshWeightShoot":221.5,
+			"DryWeightShoot":8.29,
+			"Height":17.0,
+			"Diameter":26.0,
+			"LeafArea":2476.6
+		},
+		"Image294": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_294.png",
+			"DebthInformation":"Debth_294.png",
+			"FreshWeightShoot":274.1,
+			"DryWeightShoot":8.29,
+			"Height":16.0,
+			"Diameter":25.0,
+			"LeafArea":2628.9
+		},
+		"Image300": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_300.png",
+			"DebthInformation":"Debth_300.png",
+			"FreshWeightShoot":284.4,
+			"DryWeightShoot":9.44,
+			"Height":16.5,
+			"Diameter":29.0,
+			"LeafArea":3095.6
+		},
+		"Image301": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_301.png",
+			"DebthInformation":"Debth_301.png",
+			"FreshWeightShoot":325.1,
+			"DryWeightShoot":11.26,
+			"Height":16.5,
+			"Diameter":26.5,
+			"LeafArea":4068.8
+		},
+		"Image302": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_302.png",
+			"DebthInformation":"Debth_302.png",
+			"FreshWeightShoot":392.0,
+			"DryWeightShoot":12.68,
+			"Height":16.5,
+			"Diameter":29.0,
+			"LeafArea":4062.0
+		},
+		"Image307": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_307.png",
+			"DebthInformation":"Debth_307.png",
+			"FreshWeightShoot":278.2,
+			"DryWeightShoot":10.51,
+			"Height":20.0,
+			"Diameter":27.0,
+			"LeafArea":2605.4
+		},
+		"Image308": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_308.png",
+			"DebthInformation":"Debth_308.png",
+			"FreshWeightShoot":198.5,
+			"DryWeightShoot":9.33,
+			"Height":14.2,
+			"Diameter":20.2,
+			"LeafArea":2922.8
+		},
+		"Image309": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_309.png",
+			"DebthInformation":"Debth_309.png",
+			"FreshWeightShoot":322.6,
+			"DryWeightShoot":32.00,
+			"Height":13.5,
+			"Diameter":26.2,
+			"LeafArea":3414.9
+		},
+		"Image310": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_310.png",
+			"DebthInformation":"Debth_310.png",
+			"FreshWeightShoot":311.0,
+			"DryWeightShoot":10.89,
+			"Height":18.0,
+			"Diameter":27.0,
+			"LeafArea":3208.4
+		},
+		"Image311": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_311.png",
+			"DebthInformation":"Debth_311.png",
+			"FreshWeightShoot":355.4,
+			"DryWeightShoot":12.36,
+			"Height":17.0,
+			"Diameter":26.0,
+			"LeafArea":3571.3
+		},
+		"Image59": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_59.png",
+			"DebthInformation":"Debth_59.png",
+			"FreshWeightShoot": 6.2,
+			"DryWeightShoot":0.45,
+			"Height": 7.0,
+			"Diameter":13.5,
+			"LeafArea":161.0
+		},
+		"Image60": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_60.png",
+			"DebthInformation":"Debth_60.png",
+			"FreshWeightShoot": 3.9,
+			"DryWeightShoot":0.28,
+			"Height": 7.2,
+			"Diameter":13.1,
+			"LeafArea":119.5
+		},
+		"Image61": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_61.png",
+			"DebthInformation":"Debth_61.png",
+			"FreshWeightShoot": 3.3,
+			"DryWeightShoot":0.24,
+			"Height": 5.2,
+			"Diameter":13.0,
+			"LeafArea":89.0
+		},
+		"Image63": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_63.png",
+			"DebthInformation":"Debth_63.png",
+			"FreshWeightShoot": 6.0,
+			"DryWeightShoot":0.45,
+			"Height": 5.5,
+			"Diameter":19.2,
+			"LeafArea":159.8
+		},
+		"Image64": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_64.png",
+			"DebthInformation":"Debth_64.png",
+			"FreshWeightShoot": 6.0,
+			"DryWeightShoot":0.43,
+			"Height": 6.0,
+			"Diameter":12.0,
+			"LeafArea":161.6
+		},
+		"Image65": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_65.png",
+			"DebthInformation":"Debth_65.png",
+			"FreshWeightShoot": 5.3,
+			"DryWeightShoot":0.41,
+			"Height": 5.7,
+			"Diameter":13.5,
+			"LeafArea":157.6
+		},
+		"Image67": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_67.png",
+			"DebthInformation":"Debth_67.png",
+			"FreshWeightShoot": 4.8,
+			"DryWeightShoot":0.33,
+			"Height": 5.3,
+			"Diameter":13.0,
+			"LeafArea":145.0
+		},
+		"Image116": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_116.png",
+			"DebthInformation":"Debth_116.png",
+			"FreshWeightShoot":20.4,
+			"DryWeightShoot":1.28,
+			"Height": 6.0,
+			"Diameter":17.0,
+			"LeafArea":445.9
+		},
+		"Image119": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_119.png",
+			"DebthInformation":"Debth_119.png",
+			"FreshWeightShoot":27.5,
+			"DryWeightShoot":1.51,
+			"Height": 7.5,
+			"Diameter":18.4,
+			"LeafArea":561.1
+		},
+		"Image122": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_122.png",
+			"DebthInformation":"Debth_122.png",
+			"FreshWeightShoot":23.2,
+			"DryWeightShoot":1.36,
+			"Height": 7.5,
+			"Diameter":18.1,
+			"LeafArea":452.3
+		},
+		"Image123": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_123.png",
+			"DebthInformation":"Debth_123.png",
+			"FreshWeightShoot":18.9,
+			"DryWeightShoot":1.12,
+			"Height": 7.9,
+			"Diameter":18.5,
+			"LeafArea":437.6
+		},
+		"Image126": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_126.png",
+			"DebthInformation":"Debth_126.png",
+			"FreshWeightShoot":26.4,
+			"DryWeightShoot":1.48,
+			"Height": 8.8,
+			"Diameter":19.1,
+			"LeafArea":606.7
+		},
+		"Image129": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_129.png",
+			"DebthInformation":"Debth_129.png",
+			"FreshWeightShoot":22.3,
+			"DryWeightShoot":1.29,
+			"Height": 8.5,
+			"Diameter":18.1,
+			"LeafArea":492.4
+		},
+		"Image131": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_131.png",
+			"DebthInformation":"Debth_131.png",
+			"FreshWeightShoot":31.2,
+			"DryWeightShoot":1.76,
+			"Height": 8.7,
+			"Diameter":20.1,
+			"LeafArea":714.4
+		},
+		"Image180": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_180.png",
+			"DebthInformation":"Debth_180.png",
+			"FreshWeightShoot":70.0,
+			"DryWeightShoot":3.28,
+			"Height":12.0,
+			"Diameter":21.6,
+			"LeafArea":1225.0
+		},
+		"Image181": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_181.png",
+			"DebthInformation":"Debth_181.png",
+			"FreshWeightShoot":31.9,
+			"DryWeightShoot":1.66,
+			"Height":11.3,
+			"Diameter":19.0,
+			"LeafArea":725.3
+		},
+		"Image182": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_182.png",
+			"DebthInformation":"Debth_182.png",
+			"FreshWeightShoot":39.1,
+			"DryWeightShoot":2.13,
+			"Height": 9.2,
+			"Diameter":18.0,
+			"LeafArea":695.6
+		},
+		"Image183": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_183.png",
+			"DebthInformation":"Debth_183.png",
+			"FreshWeightShoot":63.0,
+			"DryWeightShoot":2.80,
+			"Height":11.8,
+			"Diameter":21.3,
+			"LeafArea":1076.2
+		},
+		"Image184": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_184.png",
+			"DebthInformation":"Debth_184.png",
+			"FreshWeightShoot":34.0,
+			"DryWeightShoot":1.69,
+			"Height":10.6,
+			"Diameter":19.0,
+			"LeafArea":770.0
+		},
+		"Image185": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_185.png",
+			"DebthInformation":"Debth_185.png",
+			"FreshWeightShoot":40.1,
+			"DryWeightShoot":2.11,
+			"Height":10.0,
+			"Diameter":19.0,
+			"LeafArea":772.4
+		},
+		"Image186": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_186.png",
+			"DebthInformation":"Debth_186.png",
+			"FreshWeightShoot":49.6,
+			"DryWeightShoot":2.78,
+			"Height":10.3,
+			"Diameter":18.4,
+			"LeafArea":952.2
+		},
+		"Image187": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_187.png",
+			"DebthInformation":"Debth_187.png",
+			"FreshWeightShoot":48.0,
+			"DryWeightShoot":2.24,
+			"Height": 9.8,
+			"Diameter":20.6,
+			"LeafArea":876.8
+		},
+		"Image188": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_188.png",
+			"DebthInformation":"Debth_188.png",
+			"FreshWeightShoot":61.6,
+			"DryWeightShoot":2.80,
+			"Height":11.9,
+			"Diameter":20.4,
+			"LeafArea":1061.8
+		},
+		"Image189": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_189.png",
+			"DebthInformation":"Debth_189.png",
+			"FreshWeightShoot":56.5,
+			"DryWeightShoot":2.63,
+			"Height":12.1,
+			"Diameter":19.2,
+			"LeafArea":1001.3
+		},
+		"Image192": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_192.png",
+			"DebthInformation":"Debth_192.png",
+			"FreshWeightShoot":37.5,
+			"DryWeightShoot":1.95,
+			"Height":11.3,
+			"Diameter":21.3,
+			"LeafArea":740.5
+		},
+		"Image194": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_194.png",
+			"DebthInformation":"Debth_194.png",
+			"FreshWeightShoot":48.8,
+			"DryWeightShoot":2.21,
+			"Height": 9.4,
+			"Diameter":21.2,
+			"LeafArea":999.2
+		},
+		"Image230": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_230.png",
+			"DebthInformation":"Debth_230.png",
+			"FreshWeightShoot":82.0,
+			"DryWeightShoot":3.70,
+			"Height":11.0,
+			"Diameter":21.0,
+			"LeafArea":1212.5
+		},
+		"Image231": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_231.png",
+			"DebthInformation":"Debth_231.png",
+			"FreshWeightShoot":64.0,
+			"DryWeightShoot":3.53,
+			"Height":10.0,
+			"Diameter":20.0,
+			"LeafArea":1066.1
+		},
+		"Image236": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_236.png",
+			"DebthInformation":"Debth_236.png",
+			"FreshWeightShoot":70.0,
+			"DryWeightShoot":3.51,
+			"Height":11.0,
+			"Diameter":22.0,
+			"LeafArea":1237.5
+		},
+		"Image237": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_237.png",
+			"DebthInformation":"Debth_237.png",
+			"FreshWeightShoot":102.0,
+			"DryWeightShoot":5.21,
+			"Height":10.0,
+			"Diameter":25.0,
+			"LeafArea":1648.3
+		},
+		"Image238": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_238.png",
+			"DebthInformation":"Debth_238.png",
+			"FreshWeightShoot":93.0,
+			"DryWeightShoot":4.59,
+			"Height":13.0,
+			"Diameter":19.5,
+			"LeafArea":1640.7
+		},
+		"Image239": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_239.png",
+			"DebthInformation":"Debth_239.png",
+			"FreshWeightShoot":84.0,
+			"DryWeightShoot":4.35,
+			"Height":13.0,
+			"Diameter":20.0,
+			"LeafArea":1287.8
+		},
+		"Image240": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_240.png",
+			"DebthInformation":"Debth_240.png",
+			"FreshWeightShoot":66.0,
+			"DryWeightShoot":3.91,
+			"Height":11.0,
+			"Diameter":21.0,
+			"LeafArea":1251.4
+		},
+		"Image274": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_274.png",
+			"DebthInformation":"Debth_274.png",
+			"FreshWeightShoot":87.0,
+			"DryWeightShoot":4.86,
+			"Height":14.0,
+			"Diameter":22.5,
+			"LeafArea":1447.3
+		},
+		"Image275": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_275.png",
+			"DebthInformation":"Debth_275.png",
+			"FreshWeightShoot":118.3,
+			"DryWeightShoot":6.00,
+			"Height":14.0,
+			"Diameter":22.0,
+			"LeafArea":1508.7
+		},
+		"Image277": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_277.png",
+			"DebthInformation":"Debth_277.png",
+			"FreshWeightShoot":190.0,
+			"DryWeightShoot":7.48,
+			"Height":17.0,
+			"Diameter":27.1,
+			"LeafArea":4988.9
+		},
+		"Image279": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_279.png",
+			"DebthInformation":"Debth_279.png",
+			"FreshWeightShoot":134.4,
+			"DryWeightShoot":6.16,
+			"Height":16.5,
+			"Diameter":22.2,
+			"LeafArea":1822.9
+		},
+		"Image280": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_280.png",
+			"DebthInformation":"Debth_280.png",
+			"FreshWeightShoot":182.1,
+			"DryWeightShoot":6.80,
+			"Height":16.0,
+			"Diameter":26.3,
+			"LeafArea":1748.4
+		},
+		"Image281": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_281.png",
+			"DebthInformation":"Debth_281.png",
+			"FreshWeightShoot":130.9,
+			"DryWeightShoot":6.64,
+			"Height":15.2,
+			"Diameter":21.3,
+			"LeafArea":2258.5
+		},
+		"Image283": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_283.png",
+			"DebthInformation":"Debth_283.png",
+			"FreshWeightShoot":147.4,
+			"DryWeightShoot":7.04,
+			"Height":14.5,
+			"Diameter":21.0,
+			"LeafArea":1743.5
+		},
+		"Image284": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_284.png",
+			"DebthInformation":"Debth_284.png",
+			"FreshWeightShoot":117.4,
+			"DryWeightShoot":6.09,
+			"Height":14.5,
+			"Diameter":23.0,
+			"LeafArea":1982.8
+		},
+		"Image364": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_364.png",
+			"DebthInformation":"Debth_364.png",
+			"FreshWeightShoot":228.4,
+			"DryWeightShoot":11.11,
+			"Height":17.5,
+			"Diameter":25.0,
+			"LeafArea":2468.0
+		},
+		"Image368": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_368.png",
+			"DebthInformation":"Debth_368.png",
+			"FreshWeightShoot":172.7,
+			"DryWeightShoot":7.90,
+			"Height":18.0,
+			"Diameter":26.5,
+			"LeafArea":2091.8
+		},
+		"Image369": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_369.png",
+			"DebthInformation":"Debth_369.png",
+			"FreshWeightShoot":130.4,
+			"DryWeightShoot":6.60,
+			"Height":14.0,
+			"Diameter":25.0,
+			"LeafArea":1899.6
+		},
+		"Image371": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_371.png",
+			"DebthInformation":"Debth_371.png",
+			"FreshWeightShoot":229.6,
+			"DryWeightShoot":10.11,
+			"Height":16.0,
+			"Diameter":25.0,
+			"LeafArea":2620.8
+		},
+		"Image372": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_372.png",
+			"DebthInformation":"Debth_372.png",
+			"FreshWeightShoot":150.7,
+			"DryWeightShoot":7.12,
+			"Height":19.0,
+			"Diameter":26.0,
+			"LeafArea":2758.6
+		},
+		"Image376": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_376.png",
+			"DebthInformation":"Debth_376.png",
+			"FreshWeightShoot":139.0,
+			"DryWeightShoot":6.98,
+			"Height":18.0,
+			"Diameter":25.0,
+			"LeafArea":2559.6
+		},
+		"Image379": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_379.png",
+			"DebthInformation":"Debth_379.png",
+			"FreshWeightShoot":145.3,
+			"DryWeightShoot":7.08,
+			"Height":17.0,
+			"Diameter":23.0,
+			"LeafArea":2083.8
+		},
+		"Image381": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_381.png",
+			"DebthInformation":"Debth_381.png",
+			"FreshWeightShoot":184.7,
+			"DryWeightShoot":7.39,
+			"Height":18.5,
+			"Diameter":28.0,
+			"LeafArea":2420.3
+		},
+		"Image382": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_382.png",
+			"DebthInformation":"Debth_382.png",
+			"FreshWeightShoot":213.5,
+			"DryWeightShoot":8.77,
+			"Height":18.0,
+			"Diameter":24.0,
+			"LeafArea":2961.9
+		},
+		"Image386": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_386.png",
+			"DebthInformation":"Debth_386.png",
+			"FreshWeightShoot":196.2,
+			"DryWeightShoot":7.62,
+			"Height":12.0,
+			"Diameter":15.6,
+			"LeafArea":2321.7
+		},
+		"Image387": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_387.png",
+			"DebthInformation":"Debth_387.png",
+			"FreshWeightShoot":163.2,
+			"DryWeightShoot":9.17,
+			"Height":16.0,
+			"Diameter":26.0,
+			"LeafArea":1858.3
+		},
+		"Image388": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_388.png",
+			"DebthInformation":"Debth_388.png",
+			"FreshWeightShoot":180.6,
+			"DryWeightShoot":10.01,
+			"Height":17.0,
+			"Diameter":31.0,
+			"LeafArea":1805.6
+		},
+		"Image389": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_389.png",
+			"DebthInformation":"Debth_389.png",
+			"FreshWeightShoot":209.3,
+			"DryWeightShoot":8.19,
+			"Height":15.0,
+			"Diameter":25.6,
+			"LeafArea":2257.1
+		},
+		"Image390": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_390.png",
+			"DebthInformation":"Debth_390.png",
+			"FreshWeightShoot":204.5,
+			"DryWeightShoot":9.20,
+			"Height":18.0,
+			"Diameter":32.0,
+			"LeafArea":3179.4
+		},
+		"Image391": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_391.png",
+			"DebthInformation":"Debth_391.png",
+			"FreshWeightShoot":216.6,
+			"DryWeightShoot":8.74,
+			"Height":17.1,
+			"Diameter":25.1,
+			"LeafArea":3279.8
+		},
+		"Image34": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_34.png",
+			"DebthInformation":"Debth_34.png",
+			"FreshWeightShoot": 4.5,
+			"DryWeightShoot":0.60,
+			"Height": 6.5,
+			"Diameter":18.6,
+			"LeafArea":161.8
+		},
+		"Image35": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_35.png",
+			"DebthInformation":"Debth_35.png",
+			"FreshWeightShoot": 5.5,
+			"DryWeightShoot":0.65,
+			"Height": 7.0,
+			"Diameter":19.5,
+			"LeafArea":188.8
+		},
+		"Image36": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_36.png",
+			"DebthInformation":"Debth_36.png",
+			"FreshWeightShoot": 3.5,
+			"DryWeightShoot":0.35,
+			"Height": 7.3,
+			"Diameter":16.0,
+			"LeafArea":137.4
+		},
+		"Image37": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_37.png",
+			"DebthInformation":"Debth_37.png",
+			"FreshWeightShoot": 4.8,
+			"DryWeightShoot":0.59,
+			"Height": 6.3,
+			"Diameter":18.0,
+			"LeafArea":175.2
+		},
+		"Image38": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_38.png",
+			"DebthInformation":"Debth_38.png",
+			"FreshWeightShoot": 4.7,
+			"DryWeightShoot":0.49,
+			"Height": 7.2,
+			"Diameter":16.0,
+			"LeafArea":156.7
+		},
+		"Image41": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_41.png",
+			"DebthInformation":"Debth_41.png",
+			"FreshWeightShoot": 4.6,
+			"DryWeightShoot":0.54,
+			"Height": 9.0,
+			"Diameter":16.8,
+			"LeafArea":174.9
+		},
+		"Image42": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_42.png",
+			"DebthInformation":"Debth_42.png",
+			"FreshWeightShoot": 5.2,
+			"DryWeightShoot":0.58,
+			"Height": 9.8,
+			"Diameter":17.2,
+			"LeafArea":202.7
+		},
+		"Image43": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_43.png",
+			"DebthInformation":"Debth_43.png",
+			"FreshWeightShoot": 3.9,
+			"DryWeightShoot":0.46,
+			"Height": 8.6,
+			"Diameter":17.2,
+			"LeafArea":140.8
+		},
+		"Image84": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_84.png",
+			"DebthInformation":"Debth_84.png",
+			"FreshWeightShoot":16.4,
+			"DryWeightShoot":1.22,
+			"Height": 6.8,
+			"Diameter":18.5,
+			"LeafArea":520.1
+		},
+		"Image86": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_86.png",
+			"DebthInformation":"Debth_86.png",
+			"FreshWeightShoot":12.5,
+			"DryWeightShoot":1.01,
+			"Height": 5.4,
+			"Diameter":17.4,
+			"LeafArea":412.3
+		},
+		"Image87": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_87.png",
+			"DebthInformation":"Debth_87.png",
+			"FreshWeightShoot":18.8,
+			"DryWeightShoot":1.31,
+			"Height": 7.3,
+			"Diameter":22.1,
+			"LeafArea":578.5
+		},
+		"Image91": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_91.png",
+			"DebthInformation":"Debth_91.png",
+			"FreshWeightShoot":16.2,
+			"DryWeightShoot":1.14,
+			"Height": 8.0,
+			"Diameter":18.8,
+			"LeafArea":524.2
+		},
+		"Image92": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_92.png",
+			"DebthInformation":"Debth_92.png",
+			"FreshWeightShoot":19.4,
+			"DryWeightShoot":1.53,
+			"Height": 9.0,
+			"Diameter":20.3,
+			"LeafArea":654.3
+		},
+		"Image94": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_94.png",
+			"DebthInformation":"Debth_94.png",
+			"FreshWeightShoot":14.5,
+			"DryWeightShoot":1.01,
+			"Height": 8.5,
+			"Diameter":21.2,
+			"LeafArea":427.9
+		},
+		"Image97": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_97.png",
+			"DebthInformation":"Debth_97.png",
+			"FreshWeightShoot":18.6,
+			"DryWeightShoot":1.62,
+			"Height": 5.7,
+			"Diameter":19.5,
+			"LeafArea":578.2
+		},
+		"Image98": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_98.png",
+			"DebthInformation":"Debth_98.png",
+			"FreshWeightShoot":10.3,
+			"DryWeightShoot":0.93,
+			"Height": 7.8,
+			"Diameter":17.0,
+			"LeafArea":330.6
+		},
+		"Image149": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_149.png",
+			"DebthInformation":"Debth_149.png",
+			"FreshWeightShoot":33.5,
+			"DryWeightShoot":2.11,
+			"Height":11.0,
+			"Diameter":23.1,
+			"LeafArea":928.8
+		},
+		"Image150": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_150.png",
+			"DebthInformation":"Debth_150.png",
+			"FreshWeightShoot":55.2,
+			"DryWeightShoot":3.09,
+			"Height":11.3,
+			"Diameter":27.2,
+			"LeafArea":1466.6
+		},
+		"Image151": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_151.png",
+			"DebthInformation":"Debth_151.png",
+			"FreshWeightShoot":69.8,
+			"DryWeightShoot":4.16,
+			"Height": 9.0,
+			"Diameter":25.1,
+			"LeafArea":1694.3
+		},
+		"Image152": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_152.png",
+			"DebthInformation":"Debth_152.png",
+			"FreshWeightShoot":73.5,
+			"DryWeightShoot":3.86,
+			"Height":11.3,
+			"Diameter":28.5,
+			"LeafArea":1866.7
+		},
+		"Image153": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_153.png",
+			"DebthInformation":"Debth_153.png",
+			"FreshWeightShoot":56.0,
+			"DryWeightShoot":2.96,
+			"Height":12.5,
+			"Diameter":24.5,
+			"LeafArea":1554.8
+		},
+		"Image154": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_154.png",
+			"DebthInformation":"Debth_154.png",
+			"FreshWeightShoot":60.3,
+			"DryWeightShoot":3.38,
+			"Height":12.1,
+			"Diameter":24.6,
+			"LeafArea":1674.7
+		},
+		"Image155": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_155.png",
+			"DebthInformation":"Debth_155.png",
+			"FreshWeightShoot":39.8,
+			"DryWeightShoot":2.23,
+			"Height":11.3,
+			"Diameter":24.9,
+			"LeafArea":1082.6
+		},
+		"Image156": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_156.png",
+			"DebthInformation":"Debth_156.png",
+			"FreshWeightShoot":47.2,
+			"DryWeightShoot":2.41,
+			"Height":13.1,
+			"Diameter":25.0,
+			"LeafArea":1115.5
+		},
+		"Image157": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_157.png",
+			"DebthInformation":"Debth_157.png",
+			"FreshWeightShoot":47.1,
+			"DryWeightShoot":2.59,
+			"Height":12.8,
+			"Diameter":26.2,
+			"LeafArea":1321.3
+		},
+		"Image158": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_158.png",
+			"DebthInformation":"Debth_158.png",
+			"FreshWeightShoot":62.3,
+			"DryWeightShoot":3.64,
+			"Height":11.0,
+			"Diameter":23.7,
+			"LeafArea":1600.9
+		},
+		"Image159": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_159.png",
+			"DebthInformation":"Debth_159.png",
+			"FreshWeightShoot":55.0,
+			"DryWeightShoot":3.07,
+			"Height":13.2,
+			"Diameter":26.6,
+			"LeafArea":1466.2
+		},
+		"Image160": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_160.png",
+			"DebthInformation":"Debth_160.png",
+			"FreshWeightShoot":47.8,
+			"DryWeightShoot":2.52,
+			"Height":12.2,
+			"Diameter":23.4,
+			"LeafArea":1255.1
+		},
+		"Image208": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_208.png",
+			"DebthInformation":"Debth_208.png",
+			"FreshWeightShoot":101.0,
+			"DryWeightShoot":5.13,
+			"Height": 9.0,
+			"Diameter":25.0,
+			"LeafArea":2139.4
+		},
+		"Image211": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_211.png",
+			"DebthInformation":"Debth_211.png",
+			"FreshWeightShoot":110.0,
+			"DryWeightShoot":6.04,
+			"Height":12.0,
+			"Diameter":28.0,
+			"LeafArea":2414.7
+		},
+		"Image212": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_212.png",
+			"DebthInformation":"Debth_212.png",
+			"FreshWeightShoot":60.0,
+			"DryWeightShoot":3.79,
+			"Height": 8.0,
+			"Diameter":23.0,
+			"LeafArea":1822.1
+		},
+		"Image213": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_213.png",
+			"DebthInformation":"Debth_213.png",
+			"FreshWeightShoot":118.0,
+			"DryWeightShoot":6.10,
+			"Height":14.0,
+			"Diameter":33.0,
+			"LeafArea":2945.7
+		},
+		"Image214": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_214.png",
+			"DebthInformation":"Debth_214.png",
+			"FreshWeightShoot":57.0,
+			"DryWeightShoot":3.70,
+			"Height": 9.0,
+			"Diameter":21.0,
+			"LeafArea":1703.9
+		},
+		"Image217": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_217.png",
+			"DebthInformation":"Debth_217.png",
+			"FreshWeightShoot":67.0,
+			"DryWeightShoot":4.49,
+			"Height":11.0,
+			"Diameter":26.0,
+			"LeafArea":1626.2
+		},
+		"Image218": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_218.png",
+			"DebthInformation":"Debth_218.png",
+			"FreshWeightShoot":96.0,
+			"DryWeightShoot":4.81,
+			"Height":11.0,
+			"Diameter":27.0,
+			"LeafArea":2153.6
+		},
+		"Image250": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_250.png",
+			"DebthInformation":"Debth_250.png",
+			"FreshWeightShoot":164.3,
+			"DryWeightShoot":8.58,
+			"Height":15.5,
+			"Diameter":36.3,
+			"LeafArea":3855.3
+		},
+		"Image251": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_251.png",
+			"DebthInformation":"Debth_251.png",
+			"FreshWeightShoot":116.5,
+			"DryWeightShoot":7.04,
+			"Height":13.5,
+			"Diameter":29.0,
+			"LeafArea":2893.2
+		},
+		"Image253": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_253.png",
+			"DebthInformation":"Debth_253.png",
+			"FreshWeightShoot":186.0,
+			"DryWeightShoot":9.40,
+			"Height":11.1,
+			"Diameter":28.1,
+			"LeafArea":3979.1
+		},
+		"Image254": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_254.png",
+			"DebthInformation":"Debth_254.png",
+			"FreshWeightShoot":155.5,
+			"DryWeightShoot":8.03,
+			"Height":14.0,
+			"Diameter":25.3,
+			"LeafArea":3402.4
+		},
+		"Image255": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_255.png",
+			"DebthInformation":"Debth_255.png",
+			"FreshWeightShoot":133.2,
+			"DryWeightShoot":6.84,
+			"Height":15.8,
+			"Diameter":32.0,
+			"LeafArea":3089.2
+		},
+		"Image256": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_256.png",
+			"DebthInformation":"Debth_256.png",
+			"FreshWeightShoot":207.5,
+			"DryWeightShoot":10.38,
+			"Height":16.5,
+			"Diameter":33.3,
+			"LeafArea":5001.9
+		},
+		"Image257": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_257.png",
+			"DebthInformation":"Debth_257.png",
+			"FreshWeightShoot":159.3,
+			"DryWeightShoot":8.27,
+			"Height":12.1,
+			"Diameter":29.3,
+			"LeafArea":3828.6
+		},
+		"Image312": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_312.png",
+			"DebthInformation":"Debth_312.png",
+			"FreshWeightShoot":286.4,
+			"DryWeightShoot":14.14,
+			"Height":18.5,
+			"Diameter":34.5,
+			"LeafArea":5463.7
+		},
+		"Image313": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_313.png",
+			"DebthInformation":"Debth_313.png",
+			"FreshWeightShoot":197.7,
+			"DryWeightShoot":10.95,
+			"Height":15.5,
+			"Diameter":30.5,
+			"LeafArea":3694.1
+		},
+		"Image317": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_317.png",
+			"DebthInformation":"Debth_317.png",
+			"FreshWeightShoot":187.4,
+			"DryWeightShoot":8.76,
+			"Height":14.5,
+			"Diameter":29.0,
+			"LeafArea":3369.7
+		},
+		"Image318": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_318.png",
+			"DebthInformation":"Debth_318.png",
+			"FreshWeightShoot":180.4,
+			"DryWeightShoot":10.69,
+			"Height":14.0,
+			"Diameter":33.0,
+			"LeafArea":3714.5
+		},
+		"Image323": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_323.png",
+			"DebthInformation":"Debth_323.png",
+			"FreshWeightShoot":173.4,
+			"DryWeightShoot":7.36,
+			"Height":14.3,
+			"Diameter":27.5,
+			"LeafArea":3163.1
+		},
+		"Image328": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_328.png",
+			"DebthInformation":"Debth_328.png",
+			"FreshWeightShoot":235.6,
+			"DryWeightShoot":11.04,
+			"Height":17.0,
+			"Diameter":33.5,
+			"LeafArea":5348.1
+		},
+		"Image329": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_329.png",
+			"DebthInformation":"Debth_329.png",
+			"FreshWeightShoot":324.1,
+			"DryWeightShoot":13.90,
+			"Height":16.5,
+			"Diameter":32.0,
+			"LeafArea":6365.0
+		},
+		"Image330": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_330.png",
+			"DebthInformation":"Debth_330.png",
+			"FreshWeightShoot":240.1,
+			"DryWeightShoot":8.94,
+			"Height":17.0,
+			"Diameter":29.0,
+			"LeafArea":4112.6
+		},
+		"Image332": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_332.png",
+			"DebthInformation":"Debth_332.png",
+			"FreshWeightShoot":232.5,
+			"DryWeightShoot":10.49,
+			"Height":15.0,
+			"Diameter":29.0,
+			"LeafArea":4153.3
+		},
+		"Image333": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_333.png",
+			"DebthInformation":"Debth_333.png",
+			"FreshWeightShoot":95.8,
+			"DryWeightShoot":6.96,
+			"Height": 9.0,
+			"Diameter":12.3,
+			"LeafArea":1976.0
+		},
+		"Image334": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_334.png",
+			"DebthInformation":"Debth_334.png",
+			"FreshWeightShoot":229.2,
+			"DryWeightShoot":11.69,
+			"Height":15.4,
+			"Diameter":39.2,
+			"LeafArea":4279.3
+		},
+		"Image335": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_335.png",
+			"DebthInformation":"Debth_335.png",
+			"FreshWeightShoot":268.4,
+			"DryWeightShoot":12.11,
+			"Height":17.0,
+			"Diameter":33.0,
+			"LeafArea":5088.8
+		},
+		"Image336": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_336.png",
+			"DebthInformation":"Debth_336.png",
+			"FreshWeightShoot":213.8,
+			"DryWeightShoot":11.07,
+			"Height":13.5,
+			"Diameter":31.3,
+			"LeafArea":4332.9
+		},
+		"Image338": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_338.png",
+			"DebthInformation":"Debth_338.png",
+			"FreshWeightShoot":184.2,
+			"DryWeightShoot":10.42,
+			"Height":13.6,
+			"Diameter":22.5,
+			"LeafArea":3987.9
+		},
+		"Image339": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_339.png",
+			"DebthInformation":"Debth_339.png",
+			"FreshWeightShoot":273.4,
+			"DryWeightShoot":13.23,
+			"Height":16.0,
+			"Diameter":34.0,
+			"LeafArea":4905.0
+		},
+		"Image340": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_340.png",
+			"DebthInformation":"Debth_340.png",
+			"FreshWeightShoot":241.9,
+			"DryWeightShoot":8.98,
+			"Height":13.0,
+			"Diameter":29.5,
+			"LeafArea":4365.1
+		},
+		"Image341": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_341.png",
+			"DebthInformation":"Debth_341.png",
+			"FreshWeightShoot":219.1,
+			"DryWeightShoot":11.51,
+			"Height":18.0,
+			"Diameter":35.2,
+			"LeafArea":4557.3
+		},
+		"Image342": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_342.png",
+			"DebthInformation":"Debth_342.png",
+			"FreshWeightShoot":272.6,
+			"DryWeightShoot":13.48,
+			"Height":15.0,
+			"Diameter":32.3,
+			"LeafArea":4255.6
+		},
+		"Image15": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_15.png",
+			"DebthInformation":"Debth_15.png",
+			"FreshWeightShoot": 3.2,
+			"DryWeightShoot":0.16,
+			"Height": 5.1,
+			"Diameter":16.1,
+			"LeafArea":87.6
+		},
+		"Image106": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_106.png",
+			"DebthInformation":"Debth_106.png",
+			"FreshWeightShoot":37.0,
+			"DryWeightShoot":1.98,
+			"Height": 8.6,
+			"Diameter":20.1,
+			"LeafArea":675.5
+		},
+		"Image176": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_176.png",
+			"DebthInformation":"Debth_176.png",
+			"FreshWeightShoot":78.1,
+			"DryWeightShoot":4.10,
+			"Height":12.3,
+			"Diameter":17.4,
+			"LeafArea":1263.5
+		},
+		"Image268": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_268.png",
+			"DebthInformation":"Debth_268.png",
+			"FreshWeightShoot":196.3,
+			"DryWeightShoot":9.19,
+			"Height":23.0,
+			"Diameter":35.0,
+			"LeafArea":3774.7
+		},
+		"Image351": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_351.png",
+			"DebthInformation":"Debth_351.png",
+			"FreshWeightShoot":224.0,
+			"DryWeightShoot":11.56,
+			"Height":20.0,
+			"Diameter":21.0,
+			"LeafArea":4185.4
+		},
+		"Image5": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_5.png",
+			"DebthInformation":"Debth_5.png",
+			"FreshWeightShoot": 2.3,
+			"DryWeightShoot":0.11,
+			"Height": 8.3,
+			"Diameter": 9.8,
+			"LeafArea":73.9
+		},
+		"Image74": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_74.png",
+			"DebthInformation":"Debth_74.png",
+			"FreshWeightShoot":30.6,
+			"DryWeightShoot":2.36,
+			"Height": 7.4,
+			"Diameter":21.0,
+			"LeafArea":599.6
+		},
+		"Image144": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_144.png",
+			"DebthInformation":"Debth_144.png",
+			"FreshWeightShoot":73.2,
+			"DryWeightShoot":3.74,
+			"Height":11.5,
+			"Diameter":19.5,
+			"LeafArea":1143.7
+		},
+		"Image285": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_285.png",
+			"DebthInformation":"Debth_285.png",
+			"FreshWeightShoot":318.4,
+			"DryWeightShoot":12.65,
+			"Height":17.0,
+			"Diameter":24.0,
+			"LeafArea":3319.3
+		},
+		"Image296": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_296.png",
+			"DebthInformation":"Debth_296.png",
+			"FreshWeightShoot":220.0,
+			"DryWeightShoot":9.71,
+			"Height":20.0,
+			"Diameter":26.0,
+			"LeafArea":2494.8
+		},
+		"Image1": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_1.png",
+			"DebthInformation":"Debth_1.png",
+			"FreshWeightShoot": 2.6,
+			"DryWeightShoot":0.14,
+			"Height": 8.2,
+			"Diameter":12.0,
+			"LeafArea":80.6
+		},
+		"Image125": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_125.png",
+			"DebthInformation":"Debth_125.png",
+			"FreshWeightShoot":22.3,
+			"DryWeightShoot":1.36,
+			"Height": 8.4,
+			"Diameter":17.0,
+			"LeafArea":538.2
+		},
+		"Image229": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_229.png",
+			"DebthInformation":"Debth_229.png",
+			"FreshWeightShoot":71.0,
+			"DryWeightShoot":3.69,
+			"Height":11.0,
+			"Diameter":21.0,
+			"LeafArea":1090.2
+		},
+		"Image365": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_365.png",
+			"DebthInformation":"Debth_365.png",
+			"FreshWeightShoot":165.5,
+			"DryWeightShoot":7.22,
+			"Height":19.0,
+			"Diameter":24.0,
+			"LeafArea":2064.9
+		},
+		"Image375": { 
+			"Variety":"Satine",
+			"RGBImage":"RGB_375.png",
+			"DebthInformation":"Debth_375.png",
+			"FreshWeightShoot":251.9,
+			"DryWeightShoot":10.97,
+			"Height":16.0,
+			"Diameter":26.0,
+			"LeafArea":2820.6
+		},
+		"Image10": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_10.png",
+			"DebthInformation":"Debth_10.png",
+			"FreshWeightShoot": 1.4,
+			"DryWeightShoot":0.09,
+			"Height": 5.1,
+			"Diameter":13.0,
+			"LeafArea":57.6
+		},
+		"Image93": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_93.png",
+			"DebthInformation":"Debth_93.png",
+			"FreshWeightShoot":17.0,
+			"DryWeightShoot":1.24,
+			"Height": 8.9,
+			"Diameter":21.0,
+			"LeafArea":562.2
+		},
+		"Image162": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_162.png",
+			"DebthInformation":"Debth_162.png",
+			"FreshWeightShoot":60.4,
+			"DryWeightShoot":3.71,
+			"Height":12.5,
+			"Diameter":27.1,
+			"LeafArea":1769.8
+		},
+		"Image258": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_258.png",
+			"DebthInformation":"Debth_258.png",
+			"FreshWeightShoot":145.4,
+			"DryWeightShoot":7.63,
+			"Height":15.5,
+			"Diameter":36.0,
+			"LeafArea":3005.8
+		},
+		"Image322": { 
+			"Variety":"Salanova",
+			"RGBImage":"RGB_322.png",
+			"DebthInformation":"Debth_322.png",
+			"FreshWeightShoot":227.8,
+			"DryWeightShoot":11.63,
+			"Height":16.0,
+			"Diameter":34.0,
+			"LeafArea":450.6
+		},
+		"Image19": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_19.png",
+			"DebthInformation":"Debth_19.png",
+			"FreshWeightShoot": 3.0,
+			"DryWeightShoot":0.13,
+			"Height": 5.4,
+			"Diameter":15.5,
+			"LeafArea":82.7
+		},
+		"Image54": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_54.png",
+			"DebthInformation":"Debth_54.png",
+			"FreshWeightShoot": 9.1,
+			"DryWeightShoot":0.77,
+			"Height": 7.5,
+			"Diameter":18.3,
+			"LeafArea":210.9
+		},
+		"Image220": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_220.png",
+			"DebthInformation":"Debth_220.png",
+			"FreshWeightShoot":107.0,
+			"DryWeightShoot":5.34,
+			"Height":14.0,
+			"Diameter":22.0,
+			"LeafArea":1600.6
+		},
+		"Image265": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_265.png",
+			"DebthInformation":"Debth_265.png",
+			"FreshWeightShoot":223.2,
+			"DryWeightShoot":10.32,
+			"Height":20.5,
+			"Diameter":30.2,
+			"LeafArea":3261.9
+		},
+		"Image361": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_361.png",
+			"DebthInformation":"Debth_361.png",
+			"FreshWeightShoot":292.4,
+			"DryWeightShoot":14.07,
+			"Height":22.0,
+			"Diameter":32.0,
+			"LeafArea":4991.0
+		},
+		"Image44": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_44.png",
+			"DebthInformation":"Debth_44.png",
+			"FreshWeightShoot": 6.5,
+			"DryWeightShoot":0.74,
+			"Height": 5.3,
+			"Diameter":19.5,
+			"LeafArea":144.3
+		},
+		"Image55": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_55.png",
+			"DebthInformation":"Debth_55.png",
+			"FreshWeightShoot":10.4,
+			"DryWeightShoot":0.88,
+			"Height": 7.2,
+			"Diameter":16.5,
+			"LeafArea":234.2
+		},
+		"Image221": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_221.png",
+			"DebthInformation":"Debth_221.png",
+			"FreshWeightShoot":178.0,
+			"DryWeightShoot":7.35,
+			"Height":17.0,
+			"Diameter":27.0,
+			"LeafArea":2716.4
+		},
+		"Image266": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_266.png",
+			"DebthInformation":"Debth_266.png",
+			"FreshWeightShoot":245.6,
+			"DryWeightShoot":9.59,
+			"Height":22.0,
+			"Diameter":34.0,
+			"LeafArea":3698.7
+		},
+		"Image362": { 
+			"Variety":"Aphylion",
+			"RGBImage":"RGB_362.png",
+			"DebthInformation":"Debth_362.png",
+			"FreshWeightShoot":336.0,
+			"DryWeightShoot":13.53,
+			"Height":24.0,
+			"Diameter":39.0,
+			"LeafArea":4429.8
+		},
+		"Image9": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_9.png",
+			"DebthInformation":"Debth_9.png",
+			"FreshWeightShoot": 2.5,
+			"DryWeightShoot":0.10,
+			"Height": 4.3,
+			"Diameter": 9.8,
+			"LeafArea":72.2
+		},
+		"Image29": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_29.png",
+			"DebthInformation":"Debth_29.png",
+			"FreshWeightShoot": 7.4,
+			"DryWeightShoot":0.63,
+			"Height": 6.0,
+			"Diameter":14.0,
+			"LeafArea":177.6
+		},
+		"Image196": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_196.png",
+			"DebthInformation":"Debth_196.png",
+			"FreshWeightShoot":78.0,
+			"DryWeightShoot":3.85,
+			"Height":11.0,
+			"Diameter":19.0,
+			"LeafArea":1115.6
+		},
+		"Image245": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_245.png",
+			"DebthInformation":"Debth_245.png",
+			"FreshWeightShoot":179.9,
+			"DryWeightShoot":6.60,
+			"Height":17.0,
+			"Diameter":20.0,
+			"LeafArea":2612.8
+		},
+		"Image303": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_303.png",
+			"DebthInformation":"Debth_303.png",
+			"FreshWeightShoot":218.5,
+			"DryWeightShoot":9.53,
+			"Height":18.0,
+			"Diameter":25.0,
+			"LeafArea":2803.8
+		},
+		"Image20": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_20.png",
+			"DebthInformation":"Debth_20.png",
+			"FreshWeightShoot": 4.5,
+			"DryWeightShoot":0.40,
+			"Height": 8.5,
+			"Diameter":13.0,
+			"LeafArea":127.4
+		},
+		"Image31": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_31.png",
+			"DebthInformation":"Debth_31.png",
+			"FreshWeightShoot": 6.6,
+			"DryWeightShoot":0.58,
+			"Height": 7.5,
+			"Diameter":14.6,
+			"LeafArea":159.3
+		},
+		"Image197": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_197.png",
+			"DebthInformation":"Debth_197.png",
+			"FreshWeightShoot":127.0,
+			"DryWeightShoot":6.30,
+			"Height":12.0,
+			"Diameter":21.0,
+			"LeafArea":2110.5
+		},
+		"Image246": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_246.png",
+			"DebthInformation":"Debth_246.png",
+			"FreshWeightShoot":224.1,
+			"DryWeightShoot":8.61,
+			"Height":15.0,
+			"Diameter":24.5,
+			"LeafArea":3777.1
+		},
+		"Image304": { 
+			"Variety":"Lugano",
+			"RGBImage":"RGB_304.png",
+			"DebthInformation":"Debth_304.png",
+			"FreshWeightShoot":206.8,
+			"DryWeightShoot":7.99,
+			"Height":18.0,
+			"Diameter":24.5,
+			"LeafArea":2604.8
+		}
+	}
+}
